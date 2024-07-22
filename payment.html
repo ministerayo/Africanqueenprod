@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Abyssinica+SIL&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <ul>
+            <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="marketsquare.html">Market Square</a></li>
+                <li><a href="contest.html">The contest</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                
+            </ul>
+            <button class="nav-button">Register Now</button>
+        </nav>
+        <div class="logo-header">
+            <div class="logo-description">
+                <div class="logo-content">
+                    <a href="mainmenunew.html">
+                        <img src="./images/african-queen-production-logo.png" alt=""></a>
+            <h2>AFRICAN <span>Q</span>ueen PRODUCTION</h2>
+                </div>
+            <!-- <div class="nav__menu__btn" id="menu-btn" onclick="toggleMenu()"> -->
+                <i class="ri-menu-line" onclick="toggleMenu()"></i>
+         
+            </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="marketsquare.html">Market Square</a></li>
+            <li><a href="contest.html">The contest</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+        </div> 
+    </section>
+    <div class="payment-fill">
+        <div class="card-payment-options">
+            <img src="./images/Mastercard_logo.jpg" alt="Mastercard
+            Logo">
+            <img src="./images/visa-logo.png" alt="Visa Logo">
+            <img src="./images/Discover_Card-logo.png" alt="Discover Logo">
+            <img src="./images/amex-logo.png" alt="American Express card">
+        </div>
+        <div class="card-payment-input">
+            <input type="text" name="cardholder" class="cardholder-name" placeholder="Name on card"><br><br>
+            <input type="text" name="card-number" class="card-number" placeholder="Card Number"><br><br>
+            <input type="date" name="expiration-date" class="expiration-date" placeholder="Expiration date"><br><br>
+            <input type="text" name="cvv" class="cvv" placeholder="CVV">
+        </div>
+        <!-- <div class="side-fill">
+            <img src="./images/african-queen-production-logo.png" alt="">
+            <p>African Queen Productions</p>
+        </div> -->
+        <button class="payment-button-1" href="">PAY NOW</button>
+    </div>
+    <dialog class="payment-successful">
+        <img src="./images/tick.png" alt="payment successful">
+        <p>Payment Successful <br><br> <span>Thanks for your patronage</span></p> <br><br>
+        <a class="dismiss-btn" href="">OK</a>
+    </dialog>
+
+    <footer>
+        <div class="footer-col">
+            <a class="footer-cta" href="">Register as our model</a>
+        </div>
+        <div class="footer-col-2">
+            <p>(c) Copyright 2024 <span>AFRICAN QUEEN PRODUCTIONS LTD.</span> <br>All Rights Reserved <br><br>
+            Designed by <span>Techxifly Tech</span></p>
+        </div>
+        <div class="footer-col-3">
+            <p>CONTACT US: 07038694014</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        let menuLinks = document.getElementById("nav-links")
+    
+    function toggleMenu(){
+        menuLinks.classList.toggle('show-menu');
+    }
+    </script>
+</body>
+</html>

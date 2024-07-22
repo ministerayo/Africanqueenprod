@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="freshstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Abyssinica+SIL&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Africa Queen production</title>
+</head>
+<body>
+    <body>
+        <nav class="navbar1">
+            <div class="logo" ><h1>Register<span>Here</span></h1></div>
+            <ul class="menu">
+                <li><a href="mainmenunew.html">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="mainmenunew.html">Services</a></li>
+                <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+
+            <div class="menu-btn1">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <section class="register">
+            <div class="slider">
+                <div class="images">
+                   
+
+                    <img src="./images/register-model.jpg" class="m1" alt="img1">
+                    <img src="./images/new 1.jpeg" class="m2" alt="img2">
+                    <img src="./images/new 2.jpeg" class="m3" alt="img3">
+                </div>
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                </div> 
+            </div>
+            
+            <form>
+                <h1>Register</h1>
+                <p>All fields marked with * are required</p> 
+                <label for="Name">Name*</label><br>               
+                <input type="Name" placeholder="First Name" autocomplete="off">
+                <input type="Name" placeholder="Last Name" autocomplete="off"><br><br>
+                <label for="Date of birth">Date of birth*</label> <br>
+                <input type="date" id="date-of-birth" name="Date of Birth" autocomplete="off"><br><br>
+                <label for="Phone number">Phone number*</label> <br>
+                <input type="tel" placeholder="08xxxxxxxxx" autocomplete="off"> <br><br>
+                <label for="email address">Email Address</label> <br>
+                <input type="email" placeholder="example@example.com" autocomplete="off"><br><br>
+                <label for="Attach your picture">Attach your picture* <strong>Click the white space</strong></label> <br>
+                <input type="file" placeholder="Click here"><br><br>
+                <label for="2 minutes intro video">Attach your 2 minutes video telling us why you should be voted for* <strong>Click the white space</strong></label> <br>
+                <input type="file" name="Click here"><br><br>
+                <input type="checkbox">
+                <label for="confirmation of agreement to RULES">I have read, understood and agree to the RULES <br>By clicking "submit", you have agreed to abide by the RULES</label> <br><br>
+            <a class="submit-btn" href="">Submit</a>
+            </form>
+        </section>
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="#">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a href="#">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="mainmenunew.html">Services</a>
+                </li>
+                <li>
+                    <a href="mainmenunew.html">About Us</a>
+                </li>
+                <li>
+                    <a href="mainmenunew.html">Contact Us</a>
+                </li>
+
+                <p class="copyright">
+                    African Queen Production |Designed by Techxifly Tech| All Rights Reserved
+                </p>
+            </ul>
+            <div class="subscribe">
+                <p>Subscribe to our news letter</p>
+                    <div class="details-input">
+                        <input class="subscriber-name" type="text" name="subscriber-name" id="" placeholder="Name">
+                        <input class="subscriber-email" type="email" name="subscriber-email" placeholder="Email Address">
+                        <div class="sub-div">
+                            <a class="btn">subscribe</a>
+                        </div>
+                    </div>
+        </footer>
+        
+        <script>
+            $(".menu-btn").Click(function(){
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+        </script>
+
+</body>
+</html>
